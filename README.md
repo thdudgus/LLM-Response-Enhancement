@@ -1,6 +1,7 @@
 # LLM-Response-Enhancement: Predicting Human Preferences
 
 This guide outlines the steps to participate in the Kaggle competition for predicting human preferences to enhance LLM responses.
+[kaggle address: LLM Classification Finetuning](https://www.kaggle.com/competitions/llm-classification-finetuning)
 
 ## 1. Join Kaggle Competition
 * Create a Kaggle account if you don't have one.
