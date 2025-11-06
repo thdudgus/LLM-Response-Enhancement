@@ -1,10 +1,34 @@
-# LLM-Response-Enhancement
-Predicting Human Preferences for LLM Response Enhancement
+# LLM-Response-Enhancement: Predicting Human Preferences
 
-1. Join Kaggle Competition
-2. Create your own notebook and add input for llm-classification-competition.
+This guide outlines the steps to participate in the Kaggle competition for predicting human preferences to enhance LLM responses.
 
+## 1. Join Kaggle Competition
+* Create a Kaggle account if you don't have one.
+* Join the "LLM Classification Finetuning" competition.
+* Familiarize yourself with the rules, evaluation metric (Log Loss), and data format.
 
-3-2. Minilm
-- Set GPU accelerator in Kaggle Notebook (P100)
-- Just run notebook.
+## 2. Notebook Setup
+* Create a new notebook in Kaggle or your preferred environment (e.g., Colab).
+* Add the competition dataset (`llm-classification-finetuning`) to your notebook.
+
+## 3. Environment Settings
+
+### TF-IDF + Logistic Regression
+* **Kaggle:**
+    * Set Accelerator to **GPU P100**.
+* **Colab:**
+    * Set Runtime Type to **GPU (T4)**.
+    * Upload `train.csv` and `test.csv` directly to the runtime file system (left sidebar > Files folder). *Note: Files are ephemeral and will be deleted upon runtime recycling.*   
+    Adapt the `BASE_PATH` in your code to match your environment's data location.
+
+### MiniLM + Logistic Regression
+* **Kaggle:**
+    * Set Accelerator to **GPU P100**.
+
+### DeBERTa V3 (Fine-tuning)
+* **Kaggle:**
+    * Set Accelerator to **GPU T4 x2** for efficient fine-tuning.
+
+## 4. Run Notebook
+* Execute the cells in your notebook sequentially to train models and generate predictions.
+* Ensure your final submission file matches the required format (`submission.csv`).
