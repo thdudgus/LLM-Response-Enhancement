@@ -9,7 +9,7 @@ This guide outlines the steps to participate in the Kaggle competition for predi
 * Familiarize yourself with the rules, evaluation metric (Log Loss), and data format.
 
 ## 2. Notebook Setup
-* Create a new notebook in Kaggle or your preferred environment (e.g., Colab).
+* Create a new notebook in Kaggle or your preferred environment.
 * Add the competition dataset (`llm-classification-finetuning`) to your notebook.
 
 ## 3. Environment Settings
