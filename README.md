@@ -13,6 +13,8 @@ This guide outlines the steps to participate in the Kaggle competition for predi
 * Add the competition dataset (`llm-classification-finetuning`) to your notebook.
 
 ## 3. Environment Settings
+### RANDOM SEED
+* Random seed: 42
 
 ### TF-IDF + Logistic Regression
 * **Kaggle:**
